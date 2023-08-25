@@ -1,0 +1,80 @@
+head {
+  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+body {
+  text-align: center;
+  background-color: #1B1B1D;
+}
+
+h1 {
+  padding-top: 50px;
+  color: #939393;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+p {
+  color: #939393;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+footer {
+  color: #939393;
+  border: solid 0.4px #939393;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.a {
+background-image: url("./img/kick.png");
+}
+
+.s {
+background-image: url("./img/snare.png");
+}
+
+.d {
+background-image: url("./img/tom-1.png");
+}
+
+.e {
+background-image: url("./img/tom-2.png");
+}
+
+.f {
+background-image: url("./img/tom-2.png");
+}
+
+.g {
+  background-image: url("./img/crash.png");
+}
+.h {
+  background-image: url('./img/hat.png');
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+button:active {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  flex-direction: column;
+  outline: none;
+  border: 2px solid;
+  font-size: 1.8rem;
+  font-family: 'Arvo', cursive;
+  font-weight: 200;
+  color: #939393;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+}
