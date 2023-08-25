@@ -17,10 +17,11 @@ p {
 }
 footer {
   color: #939393;
-  border: solid 0.4px #939393;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-
+footer a {
+  color: #939393;
+}
 .a {
 background-image: url("./img/kick.png");
 }
@@ -52,18 +53,10 @@ background-image: url("./img/tom-2.png");
   margin: 10% auto;
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
-}
 
 button:active {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #091317;
   opacity: 0.5;
-}
-
-.red {
-  color: red;
 }
 
 .drum {
