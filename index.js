@@ -4,11 +4,13 @@ for (let i = 0; i<nButtons; i++) {
     document.querySelectorAll("button")[i].addEventListener("click", function () {
         var buttonInnerHTML = this.innerHTML
         playSound(buttonInnerHTML);
+        buttonAnimation(buttonInnerHTML);
     });
 }
 
 document.addEventListener("keydown", function(event) {
     playSound(event.key);
+    buttonAnimation(event.key);
 })
 
 function playSound(type) {
@@ -43,3 +45,12 @@ function playSound(type) {
             break;
     }
 }
+
+
+function buttonAnimation(key) {
+    var activeButton = document.querySelector("." + key);
+    activeButton.classList.add("pressed");
+    setTimeout(function() {
+        activeButton.classList.remove("pressed");
+    }, 80);
+    };
